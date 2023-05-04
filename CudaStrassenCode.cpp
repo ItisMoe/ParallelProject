@@ -87,7 +87,7 @@ void fillM(int size, int **&matrix)
     {
         for (int j = 0; j < size; j++)
         {
-            matrix[i][j] = rand() % 5;
+            matrix[i][j] = i+j+rand() % 101;
         }
     }
 }
